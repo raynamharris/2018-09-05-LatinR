@@ -1,28 +1,26 @@
-# workshop-template
+# workshop-template-es
 
-This repository is [Software Carpentry][swc-site] and [Data Carpentry][dc-site]'s
-template for creating websites for workshops.
+Este repositorio contiene la plantilla con la cual puedes crear sitios web para los talleres de [Software Carpentry][swc-site] y [Data Carpentry][dc-site].
 
-1.  Please *do not fork this repository directly on GitHub.*
-    Instead, please use GitHub's importer following [the instructions below](#creating-a-repository)
-    to copy this `workshop-template` repository and customize it for your workshop.
+1. Por favor no hagas un **fork** de este repositorio desde GitHub, directamente.
+    Utiliza el importador de GitHub siguiendo [las instrucciones](#creating-a-repository)
+    para copiar el repositorio `workshop-template-es` y, así, editarlo de acuerdo a las necesidades de tu taller.
 
-2.  Please *do your work in your repository's `gh-pages` branch*,
-    since that is what is
-    [automatically published as a website by GitHub][github-project-pages].
+2. Trabaja en el **branch** `gh-pages` de tu repositorio,
+    ya que este es el contenido que será
+    [publicado automáticamente como un sitio web por GitHub][github-project-pages].
 
-3.  Once you are done, please also [let us know][email] the workshop URL. If this is a self-organised workshop, you should also [fill in the self-organized workshop form][self-organized-workshop-form] (if you have not already done so), so we can keep track of all workshops. We build the list of workshops on our websites from the data included in your `index.md` page. We can only do that if you [customize][customization] that page correctly *and* let us know the workshop URL.
+3. Una vez que hayas terminado, por favor avísanos [por medio de un email] cual será la URL de tu taller. Si se trata de un taller auto-organizado, también debes [completar el formulario para talleres autoorganizados][self-organised-workshop-form], para que podamos seguir el desarrollo de todos los talleres. En nuestro sitio web, construimos una lista de talleres a partir de los datos que incluyas en tu página `index.md`. Sólo podemos hacer eso si [editas][customization] tu página correctamente *y* nos informas sobre la URL del taller.
 
-If you run into problems,
-or have ideas about how to make this process simpler,
-please [get in touch](#getting-and-giving-help).
-The pages on [customizing your website][customization],
-the [FAQ][faq],
-and the [design notes][design] have more detail on what we do and why.
-And please note:
-if you are teaching Git,
-please [create a separate repository](#setting-up-a-separate-repository-for-learners)
-for your learners to practice in.
+Si tienes problemas
+o ideas sobre cómo hacer este proceso de una forma más simple,
+por favor [ponte en contacto](#getting-and-giving-help).
+Las páginas para [personalizar tu sitio web][customization],
+las [FAQ][faq],
+y las [notas de diseño][design] tienen más detalles sobre lo que hacemos y por qué.
+Y ten en cuenta: si estás enseñando sobre Git,
+por favor [crea un repositorio aparte](# setting-up-a-separate-repository-for-learners)
+para que los estudiantes puedan practicar.
 
 ## Creating a Repository
 
@@ -33,7 +31,7 @@ for your learners to practice in.
 2.  Go to [GitHub's importer][importer].
 
 3.  Paste the url of this repo as the old repository to clone:
-    <https://github.com/swcarpentry/workshop-template>.
+    <https://github.com/carpentries-es/workshop-template-es>.
 
 4.  Select the owner for your new repository.
     (This will probably be you, but may instead be an organization you belong to.)
