@@ -30,28 +30,9 @@ eventbrite:           # optional: clave alfanumérica de registro en Eventbrite,
 
 Los estudiantes, científicos y profesiones pasan cada vez más tiempo creando y utilizando software, escribiendo códigos y analizando datos sin que nunca se les enseñe cómo hacerlo de manera eficiente. [The Carpentries](https://carpentries.org) es una organización sin fines de lucro y una comunidad centrada en enseñar habilidades de codificación y ciencia de datos. Nuestra comunidad de voluntarios desarrolla lecciones de código abierto y enseña talleres en todo el mundo. Ofrecemos clases de español para enseñar ["R para análisis científico reproducible"](https://swcarpentry.github.io/r-novice-gapminder-es/), ["Control de versiones con Git"](https://swcarpentry.github.io/git-novice-es/), ["El terminal de Unix"](https://swcarpentry.github.io/shell-novice-es/). Nuestros esfuerzos actuales y futuros se enfocarán en continuar traduciendo más lecciones, apoyando traducciones de lecciones existentes, y construyendo comunidades de carpintería en América Latina de manera más amplia.
 
-{% comment %}
-  PÚBLICO
-
-  Explica quién es tu público. (En particular, cuenta a los lectores si el taller esta abierto sólo a personas de una institución o grupo en particular).
-  {% endcomment %}
-  
-{% if page.carpentry == "swc" %}
-  {% include sc/who.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/who.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/who.html %}
-{% endif %}
-
-{% comment %}
-  UBICACIÓN
-
-  Este bloque muestra la dirección y enlaces a mapas con instrucciones para llegar, si la latitud y longitud fueron definidas. Puedes utilizar http://itouchmap.com/latlong.html para encontrar la lat/long de una dirección. 
-{% endcomment %}
 {% if page.latlng %}
 <p id="where">
-  <strong>Dónde:</strong>
+  <strong>Dónde: </strong>
   {{page.address}}.
   Obtener direcciones con:
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
