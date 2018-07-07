@@ -112,12 +112,10 @@ Necesitaras la versión de escritorio para tu computadora.
 {% comment %}
   SCHEDULE
 
-
-
  Muestra el cronograma del taller. Edita los ítems y horarios en la tabla para ajustarlos a tu planificación. Puede que quieras modificar 'Día 1' y 'Día 2' para mostrar fechas concretas o días de la semana.
 
 {% endcomment %}
-<h2 id="schedule">Cronograma</h2>
+
 
 {% comment %} NO EDITAR LOS ENLACES A LAS ENCUESTAS {% endcomment %}
 <p><em>Encuestas</em></p>
@@ -134,6 +132,7 @@ Necesitaras la versión de escritorio para tu computadora.
 <p>Pregúntele a su instructor acerca de los detalles de la encuesta antes y después del taller.</p>
 {% endif %}
 
+<h2 id="schedule">Cronograma</h2>
 
 {% if page.carpentry == "swc" %}
   {% include sc/schedule.html %}
@@ -179,15 +178,6 @@ Necesitaras la versión de escritorio para tu computadora.
   de ejecutar también 'tools/check'.
 {% endcomment %}
 
-<h2 id="syllabus">Currícula</h2>
-
-{% if page.carpentry == "swc" %}
-  {% include sc/syllabus.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/syllabus.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/syllabus.html %}
-{% endif %}
 
 <hr/>
 
