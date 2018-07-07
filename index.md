@@ -123,8 +123,8 @@ Necesitaras la versión de escritorio para tu computadora.
 <p><em>Encuestas</em></p>
 {% if page.carpentry == "swc" %}
 <p>Por favor, asegúrese de completar estas encuestas antes y después del taller.</p>
-<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Encuesta pre-taller</a></p>
-<p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Encuesta post-taller</a></p>
+<p><a href="https://www.surveymonkey.com/r/Preview/?sm=V6gQbbOKn3NoPKfYKHjAKu_2BBCdtXXsTS2pf1BIdARccEtJQqlu1KFB2j2TcF0MCn">Encuesta pre-taller</a></p>
+<p><a href="https://www.surveymonkey.com/r/Preview/?sm=uN5QPa4MbF1_2BB1plbLWnL1ZUc7Nttqici0Nc0e3G4RahMwwGW5NUp4U5PKQDYmky">Encuesta post-taller</a></p>
 
 {% elsif page.carpentry == "dc" %}
   <p>Por favor, asegúrese de completar estas encuestas antes y después del taller.</p>
