@@ -44,3 +44,10 @@ This LatinR workshop will focus on the highlights of the two-day Carpentry instr
   {% include lc/schedule.html %}
 {% endif %}
 
+
+<h2 id="schedule">About the instructors</h2>
+
+Dr Rayna Harris is a postdoctoral research at the University of California, Davis. She is involved with training and communication for The Data Commons Pilot Phase Consortium,  a large group of researchers that are building and supporting scaleable biomedical data anlaysis platforms. Since 2015, She has been a contributor to the Software Carpentry and Data Carpentry open-source lessons, taught workshops, organized meets up, mentored instructors, trained instructors, and served on leadership committees. Rayna has also helped build Latin American based R communities by co-hosting bi-lingual meetups (in person and online) and translating materials. 
+
+
+
