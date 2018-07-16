@@ -19,7 +19,7 @@ eventbrite:           # optional: clave alfanumérica de registro en Eventbrite,
 
 
 
-<h2 id="general">Información General</h2>
+<h2 id="general">General Information</h2>
 
 {% comment %}
   INTRODUCCIÓN 
@@ -28,109 +28,12 @@ eventbrite:           # optional: clave alfanumérica de registro en Eventbrite,
   
 {% endcomment %}
 
-Los estudiantes, científicos y profesiones pasan cada vez más tiempo creando y utilizando software, escribiendo códigos y analizando datos sin que nunca se les enseñe cómo hacerlo de manera eficiente. [The Carpentries](https://carpentries.org) es una organización sin fines de lucro y una comunidad centrada en enseñar habilidades de codificación y ciencia de datos. Nuestra comunidad de voluntarios desarrolla lecciones de código abierto y enseña talleres en todo el mundo. Ofrecemos clases de español para enseñar ["R para análisis científico reproducible"](https://swcarpentry.github.io/r-novice-gapminder-es/), ["Control de versiones con Git"](https://swcarpentry.github.io/git-novice-es/), ["El terminal de Unix"](https://swcarpentry.github.io/shell-novice-es/). Nuestros esfuerzos actuales y futuros se enfocarán en continuar traduciendo más lecciones, apoyando traducciones de lecciones existentes, y construyendo comunidades de carpintería en América Latina de manera más amplia.
+Researchers have discovered an enormous amount about how people learn and how best to teach them. Unfortunately, much of that knowledge has not yet been translated into common classroom practice at the university level. 
 
-{% if page.latlng %}
-<p id="where">
-  <strong>Dónde: </strong>
-  {{page.address}}.
-  Obtener direcciones con:
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
-  o
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
-</p>
-{% endif %}
+In addition to teaching foundational coding and data science skills to researchers worldwide, The Carpentries organizations lead an instructor training program focuses on evidence-based best-practices of teaching.
 
-{% comment %}
-  FECHA
+This LatinR workshop will focus on the highlights of the two-day Carpentry instructor training program. Attendees will learn how to create a positive environment for learners at workshops, have opportunities to practice and build your teaching skills,  become integrated into the Carpentry community, and prepare you to use these teaching skills in teaching Carpentry workshops.
 
-  Este bloque muestra la fecha y enlaces a Google Calendar.
-{% endcomment %}
-{% if page.humandate %}
-<p id="when">
-  <strong>Cuándo:</strong>
-  {{page.humandate}}.
-  {% include workshop_calendar.html %}
-</p>
-{% endif %}
-
-{% comment %}
-  REQUERIMIENTOS ESPECIALES
-  
-  Modifica este bloque si hay algún requerimiento especial.
-{% endcomment %}
-<p id="requirements">
-  <strong>Requerimientos:</strong> Las asistentes deben traer una computadora portátil con sistema operativo Mac, Linux o Windows (no tablet, Chromebook, etc.), que tenga permisos de administradora habilitados. Deben tener algunos paquetes de software específicos instalados. 
-	
-
-**Esta lección supone que tienes el software R y RStudio instalado en tu computadora.** 
-R se puede descargar [aquí](https://cran.r-project.org/mirrors.html).
-RStudio es un entorno de desarrollo integrado para R.
-Se puede descargar [aquí](https://www.rstudio.com/products/rstudio/download/).
-Necesitaras la versión de escritorio para tu computadora.
-
-
-</p>
-
-
-{% comment %}
-  ACCESIBILIDAD
-
-  Modifica este bloque si existen barreras de accesibilidad o instrucciones especiales.
-{% endcomment %}
-<p id="accessibility">
-  <strong>Accesibilidad:</strong> Los materiales se entregaran antes del taller, también se encuentra disponible material impreso si se pide a los organizadores con anticipación. Si podemos ayudar a facilitar el aprendizaje (por ejemplo, con intérpretes de lenguaje de señas, o instalaciones para lactancia) por favor contáctanos (utilizando los detalles de contacto listados debajo) e intentaremos proveerlos.
-</p>
-
-{% comment %}
-  DIRECCIONES DE CORREO ELECTRÓNICO DE CONTACTO
-
-  Muestra los correos electrónicos de contacto definidos en el archivo de configuración.
-{% endcomment %}
-<p id="contact">
-  <strong>Contacto</strong>:
-  Por favor escribe a
-  {% if page.email %}
-    {% for email in page.email %}
-      {% if forloop.last and page.email.size > 1 %}
-        o
-      {% else %}
-        {% unless forloop.first %}
-        ,
-        {% endunless %}
-      {% endif %}
-      <a href='mailto:{{email}}'>{{email}}</a>
-    {% endfor %}
-  {% else %}
-    a ser anunciado
-  {% endif %}
-  para más información.
-</p>
-
-<hr/>
-
-{% comment %}
-  SCHEDULE
-
- Muestra el cronograma del taller. Edita los ítems y horarios en la tabla para ajustarlos a tu planificación. Puede que quieras modificar 'Día 1' y 'Día 2' para mostrar fechas concretas o días de la semana.
-
-{% endcomment %}
-
-
-{% comment %} NO EDITAR LOS ENLACES A LAS ENCUESTAS {% endcomment %}
-<p><em>Encuestas</em></p>
-{% if page.carpentry == "swc" %}
-<p>Por favor, asegúrese de completar estas encuestas antes y después del taller.</p>
-<p><a href="https://www.surveymonkey.com/r/Preview/?sm=V6gQbbOKn3NoPKfYKHjAKu_2BBCdtXXsTS2pf1BIdARccEtJQqlu1KFB2j2TcF0MCn">Encuesta pre-taller</a></p>
-<p><a href="https://www.surveymonkey.com/r/Preview/?sm=uN5QPa4MbF1_2BB1plbLWnL1ZUc7Nttqici0Nc0e3G4RahMwwGW5NUp4U5PKQDYmky">Encuesta post-taller</a></p>
-
-{% elsif page.carpentry == "dc" %}
-  <p>Por favor, asegúrese de completar estas encuestas antes y después del taller.</p>
-<p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif page.carpentry == "lc" %}
-<p>Pregúntele a su instructor acerca de los detalles de la encuesta antes y después del taller.</p>
-{% endif %}
 
 <h2 id="schedule">Cronograma</h2>
 
@@ -141,43 +44,4 @@ Necesitaras la versión de escritorio para tu computadora.
 {% elsif page.carpentry == "lc" %}
   {% include lc/schedule.html %}
 {% endif %}
-
-{% comment %}
-  Notas de colaboración
-
-  Si quieres usar un Etherpad, ve a
-
-      http://pad.software-carpentry.org/YYYY-MM-DD-site
-
-  donde 'YYYY-MM-DD-site' es el identificador de su taller,
-  e.g., '2015-06-10-esu'.
-{% endcomment %}
-{% if page.collaborative_notes %}
-<p id="collaborative_notes">
- Utilizaremos este <a href="{{page.collaborative_notes}}"> documento colaborativo </a> para chatear, tomar notas y compartir URL y fragmentos de código.
-</p>
-{% endif %}
-
-<hr/>
-
-{% comment %}
-  CURRICULA
-
-  En inglés, syllabus. Muestra que tópicos van a ser cubiertos.
-
-  1. Si tu taller es sobre R antes que Python, remueve el comentario
-     alrededor de esa sección y pon un comentario alrededor de la sección Python.
-  2. Algunos talleres van a remover SQL.
-  3. Por favor asegúrate que la lista de tópicos está sincronizada con lo que
-     pretendes enseñar.
-  4. Podría ser que necesites mover los campos div con class="col-md-6" alrededor
-     dentro de los div con class="row" para balancear el diseño multi-columnar.
-
-  Este es uno de los lugares donde la gente frecuentemente comete errores, así que
-  por favor observa la previsualización del sitio antes de comitear, y asegúrate
-  de ejecutar también 'tools/check'.
-{% endcomment %}
-
-
-<hr/>
 
