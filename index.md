@@ -70,7 +70,7 @@ This LatinR workshop will focus on the highlights of the two-day Carpentry instr
 </tr>
 <tr>
 <td markdown="span">12:15</td>
-<td markdown="span"></td>[Synthesis Creating a Positive Learning Environment](https://carpentries.github.io/instructor-training/08-motivation/)</td>
+<td markdown="span">[Synthesis Creating a Positive Learning Environment](https://carpentries.github.io/instructor-training/08-motivation/)</td>
 </tr>
 <tr>
 <td markdown="span">12:35</td>
