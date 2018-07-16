@@ -35,7 +35,7 @@ In addition to teaching foundational coding and data science skills to researche
 This LatinR workshop will focus on the highlights of the two-day Carpentry instructor training program. Attendees will learn how to create a positive environment for learners at workshops, have opportunities to practice and build your teaching skills,  become integrated into the Carpentry community, and prepare you to use these teaching skills in teaching Carpentry workshops.
 
 
-<h2 id="schedule">Cronograma</h2>
+<h2 id="schedule">Schedule</h2>
 
 {% if page.carpentry == "swc" %}
   {% include sc/schedule.html %}
