@@ -36,13 +36,52 @@ This LatinR workshop will focus on the highlights of the two-day Carpentry instr
 
 <h2 id="schedule">Schedule</h2>
 
-{% if page.carpentry == "swc" %}
-  {% include sc/schedule.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/schedule.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/schedule.html %}
-{% endif %}
+<table>
+<colgroup>
+<col width="10%" />
+<col width="30%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Time</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td markdown="span">9:00</td>
+<td markdown="span">Welcome</td>
+</tr>
+<tr>
+<td markdown="span">9:15</td>
+<td markdown="span">[Synthesis The Carpentries](https://carpentries.github.io/instructor-training/22-practices/)</td>
+</tr>
+<tr>
+<td markdown="span">10:20</td>
+<td markdown="span">[Synthesis How Learning Works](https://carpentries.github.io/instructor-training/02-practice-learning/)</td>
+</tr>
+<tr>
+<td markdown="span">11:10</td>
+<td markdown="span">Morning Coffee</td>
+</tr>
+<tr>
+<td markdown="span">11:25</td>
+<td markdown="span">[Synthesis Building Teaching Skill](https://carpentries.github.io/instructor-training/06-feedback/)</td>
+</tr>
+<tr>
+<td markdown="span">12:15</td>
+<td markdown="span"></td>[Synthesis Creating a Positive Learning Environment](https://carpentries.github.io/instructor-training/08-motivation/)</td>
+</tr>
+<tr>
+<td markdown="span">12:35</td>
+<td markdown="span">[How to be part of the Carpentries and become an instructor](https://carpentries.github.io/instructor-training/23-checkout/)</td>
+</tr>
+<tr>
+<td markdown="span">13:00</td>
+<td markdown="span">Lunch</td>
+</tr>
+</tbody>
+</table>
 
 
 <h2 id="schedule">About the instructors</h2>
