@@ -18,7 +18,7 @@ eventbrite:           # optional: clave alfanumérica de registro en Eventbrite,
 
 
 
-<h2 id="general">General Information</h2>
+<h3 id="general">General Information</h2>
 
 {% comment %}
   INTRODUCCIÓN 
@@ -34,7 +34,7 @@ In addition to teaching foundational coding and data science skills to researche
 This LatinR workshop will focus on the highlights of the two-day Carpentry instructor training program. Attendees will learn how to create a positive environment for learners at workshops, have opportunities to practice and build your teaching skills,  become integrated into the Carpentry community, and prepare you to use these teaching skills in teaching Carpentry workshops.
 
 
-<h2 id="schedule">Schedule</h2>
+<h3 id="schedule">Schedule</h2>
 
 {% if page.carpentry == "swc" %}
   {% include sc/schedule.html %}
@@ -45,7 +45,7 @@ This LatinR workshop will focus on the highlights of the two-day Carpentry instr
 {% endif %}
 
 
-<h2 id="schedule">About the instructors</h2>
+<h3 id="schedule">About the instructors</h2>
 
 Dr Rayna Harris is a postdoctoral research at the University of California, Davis. She is involved with training and communication for The Data Commons Pilot Phase Consortium,  a large group of researchers that are building and supporting scaleable biomedical data anlaysis platforms. Since 2015, She has been a contributor to the Software Carpentry and Data Carpentry open-source lessons, taught workshops, organized meets up, mentored instructors, trained instructors, and served on leadership committees. Rayna has also helped build Latin American based R communities by co-hosting bi-lingual meetups and translating materials for UNIX, R, and Git. 
 
