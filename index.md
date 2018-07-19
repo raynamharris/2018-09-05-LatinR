@@ -35,7 +35,7 @@ This LatinR workshop will focus on the highlights of the two-day Carpentry instr
 
 <h2 id="schedule">Registration</h2>
 
-This workshop is open to 30 people who are registered for 47JAIIO. If you are registered for 47JAIIO and you are interested in attending this workshop, please register here. 
+This workshop is open to 30 people who are registered for 47JAIIO. If you are registered for 47JAIIO and you are interested in attending this workshop, [please register](https://ti.to/carpentries/LatinR).  
 
 <!-- place this in your head tag -->
 <script src='https://js.tito.io/v1' async></script>
