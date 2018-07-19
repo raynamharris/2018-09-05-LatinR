@@ -33,6 +33,15 @@ In addition to teaching foundational coding and data science skills to researche
 
 This LatinR workshop will focus on the highlights of the two-day Carpentry instructor training program. Attendees will learn how to create a positive environment for learners at workshops, have opportunities to practice and build your teaching skills,  become integrated into the Carpentry community, and prepare you to use these teaching skills in teaching Carpentry workshops.
 
+<h2 id="schedule">Registration</h2>
+
+This workshop is open to 30 people who are registered for 47JAIIO. If you are registered for 47JAIIO and you are interested in attending this workshop, please register here. 
+
+<!-- place this in your head tag -->
+<script src='https://js.tito.io/v1' async></script>
+
+<!-- Place this where you want the widget to appear -->
+<tito-widget event="ultimateconf/2013"></tito-widget>
 
 <h2 id="schedule">September 5, 2018</h2>
 
