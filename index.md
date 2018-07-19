@@ -41,7 +41,7 @@ This workshop is open to 30 people who are registered for 47JAIIO. If you are re
 <script src='https://js.tito.io/v1' async></script>
 
 <!-- Place this where you want the widget to appear -->
-<tito-widget event="ultimateconf/2013"></tito-widget>
+<tito-widget event="carpentries/LatinR"></tito-widget>
 
 <h2 id="schedule">September 5, 2018</h2>
 
