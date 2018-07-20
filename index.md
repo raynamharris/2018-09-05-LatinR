@@ -66,19 +66,19 @@ This workshop is open to 30 people who are registered for 47JAIIO. If you are re
 <td markdown="span">[Synthesis The Carpentries](https://carpentries.github.io/instructor-training/22-practices/)</td>
 </tr>
 <tr>
-<td markdown="span">10:20</td>
+<td markdown="span">9:45</td>
 <td markdown="span">[Synthesis How Learning Works](https://carpentries.github.io/instructor-training/02-practice-learning/)</td>
 </tr>
 <tr>
-<td markdown="span">11:10</td>
+<td markdown="span">10:30</td>
 <td markdown="span">Morning Coffee</td>
 </tr>
 <tr>
-<td markdown="span">11:25</td>
+<td markdown="span">11:00</td>
 <td markdown="span">[Synthesis Building Teaching Skill](https://carpentries.github.io/instructor-training/06-feedback/)</td>
 </tr>
 <tr>
-<td markdown="span">12:15</td>
+<td markdown="span">11:45</td>
 <td markdown="span">[Synthesis Creating a Positive Learning Environment](https://carpentries.github.io/instructor-training/08-motivation/)</td>
 </tr>
 <tr>
