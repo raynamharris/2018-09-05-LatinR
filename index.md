@@ -75,7 +75,7 @@ This workshop is open to 30 people who are registered for 47JAIIO. If you are re
 </tr>
 <tr>
 <td markdown="span">11:00</td>
-<td markdown="span">[Synthesis Building Teaching Skill](https://carpentries.github.io/instructor-training/06-feedback/)</td>
+<td markdown="span">[Synthesis Building Teaching Skill](https://carpentries.github.io/instructor-training/14-lesson-study/index.html)</td>
 </tr>
 <tr>
 <td markdown="span">11:45</td>
