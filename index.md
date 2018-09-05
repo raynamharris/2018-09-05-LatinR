@@ -12,7 +12,7 @@ startdate: 2018-09-05      # fecha de inicio del taller en formato YYYY-MM-DD (p
 enddate: 2018-09-05        # fecha de finalización del taller en formato YYYY-MM-DD, por ejemplo 2015-01-02
 instructor: ["Florencia D'Andrea", "Rayna Harris"] # lista de nombres de las instructoras separados por comas y entre corchetes, como ["Florencia D'Andrea", "Rayna Harris"]
 email: ["rayna.harris@gmail.com"]    # lista de direcciones de correo electrónico de contacto con la **host** ó **lead instructor**, separadas por comas y entre corchetes, como ["ada.lovelace@ejemplo.org", "carrie.fisher@ejemplo.org", "hedy.lamarr@example.org"]
-collaborative_notes: https://docs.google.com/document/d/1b_9CkoRPvhzwQnZU7AAzSzD1T5MMqsiXAJAWo6xjo_c/edit?usp=sharing            # optional: URL de las notas colaborativas del taller, por ejemplo un Etherpad o documento de Google Docs 
+collaborative_notes: https://pad.carpentries.org/2018-09-05-LatinR            # optional: URL de las notas colaborativas del taller, por ejemplo un Etherpad o documento de Google Docs 
 eventbrite:           # optional: clave alfanumérica de registro en Eventbrite, por ejemplo "1234567890AB" (si se está utilizando Eventbrite)
 ---
 
