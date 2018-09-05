@@ -63,7 +63,7 @@ This workshop is open to 30 people who are registered for 47JAIIO. If you are re
 </tr>
 <tr>
 <td markdown="span">9:15</td>
-<td markdown="span">[Synthesis The Carpentries](https://carpentries.github.io/instructor-training/22-practices/)</td>
+<td markdown="span">[The Carpentries](https://carpentries.github.io/instructor-training/20-carpentries/index.html) and [ The Carpentries teaching practices](https://carpentries.github.io/instructor-training/22-practices/) and </td>
 </tr>
 <tr>
 <td markdown="span">9:45</td>
